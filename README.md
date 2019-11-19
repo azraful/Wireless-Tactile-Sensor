@@ -6,16 +6,16 @@ A wireless tactile sensing module using ESP32 micro-controller, magnetometer and
 
 ## Setup
 
-1. Download Arduino IDE from https://www.arduino.cc/en/Main/Software.
+1. Download [Arduino IDE](https://www.arduino.cc/en/Main/Software).
 2. Copy the folders into the local Arduino IDE directory.
 3. Copy the folders inside the libraries folder into the Arduino IDE local directory libraries folder.
 4. Install the ESP32 board in Arduino IDE:
 	      Go to File> Preferences.
-	      In Additional Board Manager URLs, type https://dl.espressif.com/dl/package_esp32_index.json.
+	      In Additional Board Manager URLs, type [this link](https://dl.espressif.com/dl/package_esp32_index.json).
 	      Go to Tools> Boards Manager, search ESP32 and install it.
 	      Finally, from Tools> Board, scroll down and select ESP32 Dev Module.
 5. Install the file system uploader plugin on Arduino IDE:
-	      Download ESP32FS-1.0.zip file from https://github.com/me-no-dev/arduino-esp32fs-plugin/releases/.
+	      Download ESP32FS-1.0.zip from [here](https://github.com/me-no-dev/arduino-esp32fs-plugin/releases/).
 	      Go to local computer's Arduino IDE directory and inside Tools, unzip the folder.
 	      Restart Arduino IDE and check if under Tools, there is a ESP32 Sketch Data Upload option.
 5. Open ```ESP_Web_Graphs.ino``` file from its folder on Arduino IDE.
