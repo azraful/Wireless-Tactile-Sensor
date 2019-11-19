@@ -35,12 +35,12 @@ A wireless tactile sensing module using ESP32 micro-controller, magnetometer and
 
 ## Device
 
-The final hardware prototype of this project is as follows:
-![github-small]()
+The final hardware prototype device is a self-powered wireless tactile sensing solution as follows:
+![github-small](https://github.com/azraful/Wireless-Tactile-Sensor/blob/master/Prototype%20Top.jpeg?raw=true)
 
 ## Output
 
-The output graphs displayed on the wireless device is as follow:
+The output X, Y and Z axes graphs are displayed on the wireless device with a maximum of 30 data points, each capturing their timestamp as follows:
 ![github-small]()
 ![github-small]()
 
