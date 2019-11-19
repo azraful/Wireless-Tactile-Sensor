@@ -1,4 +1,6 @@
-# Wireless Tactile Sensing Module For Internet of Things Applications
+# Wireless Tactile Sensing Module
+
+## Introduction
 
 A wireless tactile sensing module using ESP32 micro-controller, magnetometer and 3D printed soft shape, that measures 3-axis normal and shear forces with high sensitivity upon physical contact and visualises the data in real-time on a Wi-Fi connected device locally.
 
@@ -33,9 +35,16 @@ A wireless tactile sensing module using ESP32 micro-controller, magnetometer and
 
 ## Device
 
+The final hardware prototype of this project is as follows:
+![github-small]()
 
 ## Output
 
+The output graphs displayed on the wireless device is as follow:
+![github-small]()
+![github-small]()
 
 ## Demo
 
+The demonstration of this project can be found here:
+(https://www.youtube.com/watch?v=o8FALqfBiog&t=1s)
