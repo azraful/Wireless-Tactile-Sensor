@@ -51,5 +51,4 @@ The output X, Y and Z axes graphs are displayed on the wireless device with data
 
 ## Demo
 
-The demonstration of this project can be found here:
-(https://www.youtube.com/watch?v=o8FALqfBiog&t=1s)
+The demonstration of this project can be found here: https://www.youtube.com/watch?v=o8FALqfBiog&t=1s
