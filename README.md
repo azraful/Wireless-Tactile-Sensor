@@ -18,7 +18,7 @@ A wireless tactile sensing module using ESP32 micro-controller, magnetometer and
 	      Download ESP32FS-1.0.zip file from https://github.com/me-no-dev/arduino-esp32fs-plugin/releases/.
 	      Go to local computer's Arduino IDE directory and inside Tools, unzip the folder.
 	      Restart Arduino IDE and check if under Tools, there is a ESP32 Sketch Data Upload option.
-5. Open ESP_Web_Graphs.ino file from its folder on Arduino IDE.
+5. Open ```ESP_Web_Graphs.ino``` file from its folder on Arduino IDE.
 6. Replace Network Credentials (SSID & Password) to connect to WiFi or Hotspot device.
 7. Go to Tools> ESP32 Sketch Data Upload to upload the HTML file.
 	      When uploading code, press and hold Boot button on ESP32 to load code into it.
@@ -32,6 +32,12 @@ A wireless tactile sensing module using ESP32 micro-controller, magnetometer and
  	      Wait for some time for the graphs to be updated.
 	      They will update every 500 milliseconds (half a second) and store 40 data points.
  	      Test changes in forces by touching the soft sensor.
+	      
+## Other Files
+
+The code within ```Dual_Sensor``` can measure tactile sensor when multiple similar magnetometers are connected with different addresses.
+
+The code within ```i2c_scanner``` can scan for the connected i2c connection based sensor to reveal its address.
 
 ## Device
 
@@ -40,9 +46,8 @@ The final hardware prototype device is a self-powered wireless tactile sensing s
 
 ## Output
 
-The output X, Y and Z axes graphs are displayed on the wireless device with a maximum of 30 data points, each capturing their timestamp as follows:
-![github-small]()
-![github-small]()
+The output X, Y and Z axes graphs are displayed on the wireless device with data points capturing their timestamps as follows:
+![github-small](https://github.com/azraful/Wireless-Tactile-Sensor/blob/master/Timestamp.jpg?raw=true)
 
 ## Demo
 
